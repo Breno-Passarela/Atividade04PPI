@@ -1,11 +1,12 @@
 import express from "express";
 import session from "express-session";
 import cookieParser from "cookie-parser";
+
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(express.static("assets"));
+app.use(express.static("public"));
 
 app.use(
   session({
