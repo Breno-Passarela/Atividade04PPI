@@ -1,0 +1,26 @@
+{
+  "name": "atividade04ppi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Breno-Passarela/Atividade04PPI#readme",
+  "bugs": {
+    "url": "https://github.com/Breno-Passarela/Atividade04PPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breno-Passarela/Atividade04PPI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2"
+  }
+}
